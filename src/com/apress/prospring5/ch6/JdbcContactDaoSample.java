@@ -9,7 +9,7 @@ public class JdbcContactDaoSample {
         ctx.refresh();
 
         ContactDao contactDao = ctx.getBean("contactDao", ContactDao.class);
-        System.out.println("First name for contact id 1 is: " +
-                contactDao.findFirstNameById(1L));
+        System.out.println("Last name for contact id 1 is: " +
+                contactDao.findLastNameById(1L));
     }
 }
