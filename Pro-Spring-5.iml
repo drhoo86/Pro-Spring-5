@@ -7,6 +7,7 @@
           <file>file://$MODULE_DIR$/spring/app-context-xml.xml</file>
           <file>file://$MODULE_DIR$/src/spring/app-context-annotation.xml</file>
           <file>file://$MODULE_DIR$/src/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/spring/ch6-app-context-xml.xml</file>
         </fileset>
       </configuration>
     </facet>

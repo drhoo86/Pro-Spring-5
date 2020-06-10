@@ -4,6 +4,7 @@ import java.util.List;
 
 public interface ContactDao {
     List<Contact> findAll();
+
     void insert(Contact contact);
 
     List<Contact> findByFirstName(String firstName);
@@ -13,5 +14,6 @@ public interface ContactDao {
     String findLastNameById(Long id);
 
     void update(Contact contact);
+
     void delete(Long contactId);
 }
