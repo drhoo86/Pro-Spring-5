@@ -34,11 +34,15 @@ public class ContactDaoImp implements ContactDao {
 
     @Override
     public Contact save(Contact contact) {
-        return null;
+        sessionFactory.getCurrentSession().saveOrUpdate(contact);
+        LOG.info("Contact saved with id: " + contact.getId());
+        return contact;
     }
 
     @Override
     public void delete(Contact contact) {
+        sessionFactory.getCurrentSession().delete(contact);
+        LOG.info("Contact deleted with id: " + contact.getId());
     }
 
     public SessionFactory getSessionFactory() {

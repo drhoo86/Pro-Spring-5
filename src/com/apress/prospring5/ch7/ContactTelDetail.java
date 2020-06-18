@@ -16,6 +16,11 @@ public class ContactTelDetail implements Serializable {
         // empty constructor
     }
 
+    public ContactTelDetail(String telType, String telNumber) {
+        this.telType = telType;
+        this.telNumber = telNumber;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
