@@ -55,6 +55,10 @@ public class SpringJPASample {
         contact = contactService.findById(1L);
         contactService.delete(contact);
         listContactsWithDetail(contactService.findAllWithDetail());
+
+        // test Criteria API
+        contacts = contactService.findByCriteriaQuery(null, "Tiger");
+        listContactsWithDetail(contacts);
     }
 
 

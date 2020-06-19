@@ -6,7 +6,9 @@
     <JAVADOC>
       <root url="file://$USER_HOME$/soft/hibernate-release-5.4.17.Final/documentation/javadocs" />
     </JAVADOC>
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/javax.persistence-api-2.2-sources.jar!/" />
+    </SOURCES>
     <jarDirectory url="file://$USER_HOME$/soft/hibernate-release-5.4.17.Final/lib/required" recursive="false" />
   </library>
 </component>
