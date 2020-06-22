@@ -1,4 +1,4 @@
-package com.apress.prospring5.ch8.data;
+package com.apress.prospring5.ch8_data;
 
 import com.apress.prospring5.ch8.Contact;
 import org.springframework.beans.factory.annotation.Autowired;

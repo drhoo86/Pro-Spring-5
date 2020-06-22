@@ -1,12 +1,9 @@
-package com.apress.prospring5.ch8.data;
+package com.apress.prospring5.ch8_data;
 
 import com.apress.prospring5.ch8.Contact;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.util.Set;
 
 public class SpringDataSample {
     public static void main(String[] args) {

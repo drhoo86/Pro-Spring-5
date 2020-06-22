@@ -11,6 +11,7 @@
           <file>file://$MODULE_DIR$/src/spring/ch6-app-context-annotation.xml</file>
           <file>file://$MODULE_DIR$/src/spring/ch7-app-context-annotation.xml</file>
           <file>file://$MODULE_DIR$/src/spring/ch8-data-app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/src/spring/ch8-app-context-annotation.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -25,7 +26,6 @@
     <orderEntry type="library" name="Spring-5.2.3.RELEASE" level="application" />
     <orderEntry type="library" name="h2-1.4.200" level="project" />
     <orderEntry type="library" name="required" level="project" />
-    <orderEntry type="library" name="spring-data-commons-2.3.0.RELEASE" level="project" />
     <orderEntry type="library" name="com.google.guava:guava:14.0.1" level="project" />
     <orderEntry type="library" name="org.springframework.data:spring-data-jpa:2.1.4.RELEASE" level="project" />
   </component>
