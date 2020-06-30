@@ -13,6 +13,7 @@
           <file>file://$MODULE_DIR$/src/spring/ch8-data-app-context-annotation.xml</file>
           <file>file://$MODULE_DIR$/src/spring/ch8-app-context-annotation.xml</file>
           <file>file://$MODULE_DIR$/src/spring/ch8-audit-app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/src/spring/conv-service-app-context.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -30,5 +31,6 @@
     <orderEntry type="library" name="com.google.guava:guava:14.0.1" level="project" />
     <orderEntry type="library" name="org.springframework.data:spring-data-jpa:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="lib" level="application" />
+    <orderEntry type="library" name="joda-time:joda-time:2.10" level="project" />
   </component>
 </module>
