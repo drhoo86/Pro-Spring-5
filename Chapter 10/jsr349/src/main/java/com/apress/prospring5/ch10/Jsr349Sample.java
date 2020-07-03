@@ -17,11 +17,10 @@ public class Jsr349Sample {
                 ctx.getBean("myBeanValidationService", MyBeanValidationService.class);
 
         Customer customer = new Customer();
-        customer.setFirstName("C");
+        customer.setFirstName("Chris");
         customer.setLastName("Schaefer");
-        customer.setCustomerType(null);
+        customer.setCustomerType(CustomerType.INDIVIDUAL);
         customer.setGender(null);
-
         validateCustomer(customer, myBeanValidationService);
     }
 
